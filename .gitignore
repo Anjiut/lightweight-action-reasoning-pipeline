@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# -------------------------------
+# Project-specific (agent_action_project)
+# -------------------------------
+
+# Large raw data / extracted artifacts
+videos/
+new_videos/
+frames/
+new_frames/
+pose_keypoints/
+new_pose_keypoints/
+
+# Dataset / model artifacts (optional: usually not needed for repo)
+*.pkl
+*.npz
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Logs / temp outputs
+*.log
+*.tmp
+
+# API key / secrets (if you ever save locally)
+secrets.*
+*.key
+*.pem
