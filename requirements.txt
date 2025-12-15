@@ -1,0 +1,1 @@
+numpyscikit-learnopencv-pythonopenpifpafopenaitqdm
